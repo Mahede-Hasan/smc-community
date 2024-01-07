@@ -48,7 +48,7 @@ hr {
 
 /* premium lock box style  */
 
-.img-lock-box {
+.img-lock-box-anchor {
     width: 250px;
     height: 100px;
     background-color: white;
@@ -68,10 +68,11 @@ hr {
     height: 40px;
 }
 
-.img-lock-box p{
+.img-lock-box-anchor p{
     font-size: 15px;
     font-weight: 600;
     padding-top: 5px;
+    color: black;
 }
 
 /* card style */
@@ -80,6 +81,8 @@ hr {
     padding: 50px 50px !important;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     height: 600px;
+    position: sticky;
+    top: 60px;
 }
 
 .card-header-content h2{
@@ -143,5 +146,40 @@ hr {
     margin-bottom: 0 !important;
     font-size: 18px;
     font-weight: 500;
-    
+}
+
+/* overview box style */
+.overview-container{
+   padding-left: 50px !important;
+   padding-right: 50px !important;
+   padding-top: 60px;
+   padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.overview-content p, .business-content p, .target-content p, .target-content p, .response-content p, .expenses-content p, .asking-price-content p, .include-asset-content p, .competitor-content p{
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.overview-horizontal, .growth-horizontal, .business-horizontal, .target-horizontal, .response-horizontal, .expenses-horizontal, .asking-price-horizontal, .include-asset-horizontal, .competitor-horizontal, .competitor-horizontal, .traffic-horizontal{
+    margin-top: 50px !important;
+    margin-bottom: 40px !important;
+}
+
+.revenue-metrics-horizontal{
+    margin-top: 50px !important;
+}
+
+.growth-content p{
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.overview-img{
+    width: 100%;
+    padding: 0 !important;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
