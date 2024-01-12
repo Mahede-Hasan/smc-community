@@ -86,26 +86,6 @@ hr {
     color: black;
 }
 
-/* card style */
-
-.card-container {
-    padding: 50px 50px !important;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    height: 600px;
-    position: sticky;
-    top: 60px;
-}
-
-.card-header-content h2 {
-    font-weight: 300;
-    padding-bottom: 10px;
-}
-
-.card-horizontal {
-    margin-top: 40px;
-    margin-bottom: 30px;
-}
-
 /* post sale support box */
 .post-sale-support-box {
     padding: 20px 50px !important;
@@ -137,7 +117,7 @@ hr {
 .include-asset-content p,
 .competitor-content p {
     font-size: 19px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .overview-horizontal,
@@ -166,7 +146,7 @@ hr {
 
 .growth-content p {
     font-size: 19px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .overview-img {
@@ -177,8 +157,24 @@ hr {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+/* card style */
+.card-container {
+    padding: 50px 50px !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 600px;
+    position: sticky;
+    top: 60px;
+}
 
+.card-header-content h2 {
+    font-weight: 300;
+    padding-bottom: 10px;
+}
 
+.card-horizontal {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
 
 
 /* card button  */
@@ -222,8 +218,8 @@ hr {
     transition: all 1s ease;
 }
 
-/* responsive design */
 
+/* responsive design */
 
 @media only screen and (max-width: 1596px) {
     .main-container {
