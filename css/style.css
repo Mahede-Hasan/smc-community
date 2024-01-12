@@ -76,6 +76,7 @@ hr {
 .img-lock-icon {
     width: 40px;
     height: 40px;
+    margin-top: 10px;
 }
 
 .img-lock-box-anchor p {
@@ -241,7 +242,7 @@ hr {
     .startup-btn {
         font-size: 13px;
     }
-    
+
     .all-box-container {
         width: 65% !important;
     }
@@ -269,6 +270,7 @@ hr {
         width: 35% !important;
         margin-left: 12px !important;
     }
+
     .contact-founder-btn {
         font-size: 13px;
     }
@@ -291,32 +293,305 @@ hr {
         width: 35% !important;
         margin-left: 12px !important;
     }
+
     .contact-founder-btn {
         font-size: 13px;
     }
 }
+
 @media only screen and (max-width: 1000px) {
-    .card-container {
-        display: none;
+    .full-container {
+        margin: 0px auto !important;
+        display: flex;
+        flex-direction:column-reverse;
     }
+    
+    .card-container {
+        width: 50% !important;
+        position: relative;
+        margin: 0px auto !important;
+    }
+
     .all-box-container {
         width: 100% !important;
+        margin-top: 120px;
     }
 
 }
 
 @media only screen and(max-width: 900px) {
-    .main-container {
-        width: 90% !important;
-        padding: 0 !important;
-    }
-
     .full-container {
-        margin: 60px auto !important;
+        margin: 0px auto !important;
         display: flex;
+        flex-direction:column-reverse;
+    }
+    
+    .card-container {
+        width: 50%;
+        position: relative;
+        margin: 0px auto !important;
     }
 
     .all-box-container {
         width: 100% !important;
+        margin-top: 120px;
+    }
+}
+@media only screen and(max-width: 750px) {
+    .full-container {
+        margin: 0px auto !important;
+        display: flex;
+        flex-direction:column-reverse;
+    }
+    
+    .card-container {
+        width: 100% !important;
+        position: relative;
+        margin: 0px auto !important;
+    }
+
+    .all-box-container {
+        width: 100% !important;
+        margin-top: 120px;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+
+    .box-header-content h1 {
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+    .box-header-content h6 {
+        font-weight: 500;
+        color: rgb(53, 53, 53);
+        font-size: 15px;
+    }
+
+    .box-header-content p {
+        color: rgb(137, 137, 137);
+        font-size: 10px;
+    }
+
+    .first-box-container {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 40px 40px !important;
+    }
+
+
+    /* premium lock box style  */
+
+    .img-lock-box-anchor {
+        width: 140px;
+        height: 55px;
+        background-color: white;
+        position: absolute !important;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .img-lock-icon {
+        width: 18px;
+        height: 18px;
+        margin-top: 15px;
+    }
+
+    .img-lock-box-anchor p {
+        font-size: 9px;
+        font-weight: 500;
+        padding-top: 0px;
+        color: black;
+    }
+
+    /* post sale support box */
+    .post-sale-support-box {
+        padding: 16px 40px !important;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .post-sale-support-box p {
+        margin-bottom: 0 !important;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .post-sale-support-box p img {
+        width: 35px;
+    }
+
+    /* overview */
+
+    .overview-container {
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+        padding-top: 60px;
+        padding-bottom: 20px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .list-container p {
+        font-size: 14px;
+    }
+
+    .overview-content p,
+    .business-content p,
+    .growth-content p,
+    .target-content p,
+    .target-content p,
+    .response-content p,
+    .expenses-content p,
+    .asking-price-content p,
+    .include-asset-content p,
+    .competitor-content p {
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .overview-horizontal,
+    .growth-horizontal,
+    .business-horizontal,
+    .target-horizontal,
+    .response-horizontal,
+    .expenses-horizontal,
+    .asking-price-horizontal,
+    .include-asset-horizontal,
+    .competitor-horizontal,
+    .competitor-horizontal {
+        margin-top: 45px !important;
+        margin-bottom: 35px !important;
+    }
+
+    .list-container p {
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    .revenue-metrics-horizontal,
+    .traffic-horizontal {
+        margin-top: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+
+    .box-header-content h1 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .box-header-content h6 {
+        font-weight: 500;
+        color: rgb(53, 53, 53);
+        font-size: 12px;
+    }
+
+    .box-header-content p {
+        color: rgb(137, 137, 137);
+        font-size: 10px;
+    }
+    .first-box-container {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 40px 35px !important;
+    }
+
+    /* premium lock box style  */
+
+    .img-lock-box-anchor {
+        width: 130px;
+        height: 45px;
+        background-color: white;
+        position: absolute !important;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .img-lock-icon {
+        width: 15px;
+        height: 15px;
+        margin-top: 15px;
+    }
+
+    .img-lock-box-anchor p {
+        font-size: 8px;
+        font-weight: 500;
+        padding-top: 0px;
+        color: black;
+    }
+
+    /* post sale support box */
+    .post-sale-support-box {
+        padding: 15px 35px !important;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .post-sale-support-box p {
+        margin-bottom: 0 !important;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .post-sale-support-box p img {
+        width: 30px;
+    }
+
+        /* overview */
+
+        .overview-container {
+            padding-left: 35px !important;
+            padding-right: 35px !important;
+            padding-top: 60px;
+            padding-bottom: 20px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+
+    .overview-content p,
+    .business-content p,
+    .growth-content p,
+    .target-content p,
+    .target-content p,
+    .response-content p,
+    .expenses-content p,
+    .asking-price-content p,
+    .include-asset-content p,
+    .competitor-content p {
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .overview-horizontal,
+    .growth-horizontal,
+    .business-horizontal,
+    .target-horizontal,
+    .response-horizontal,
+    .expenses-horizontal,
+    .asking-price-horizontal,
+    .include-asset-horizontal,
+    .competitor-horizontal,
+    .competitor-horizontal {
+        margin-top: 40px !important;
+        margin-bottom: 35px !important;
+    }
+
+    .list-container p {
+        font-size: 12px !important;
+        font-weight: 300;
+    }
+
+    .revenue-metrics-horizontal,
+    .traffic-horizontal {
+        margin-top: 20px !important;
     }
 }
