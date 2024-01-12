@@ -303,9 +303,9 @@ hr {
     .full-container {
         margin: 0px auto !important;
         display: flex;
-        flex-direction:column-reverse;
+        flex-direction: column-reverse;
     }
-    
+
     .card-container {
         width: 50% !important;
         position: relative;
@@ -319,33 +319,15 @@ hr {
 
 }
 
-@media only screen and(max-width: 900px) {
+@media only screen and (max-width: 720px) {
     .full-container {
         margin: 0px auto !important;
         display: flex;
-        flex-direction:column-reverse;
-    }
-    
-    .card-container {
-        width: 50%;
-        position: relative;
-        margin: 0px auto !important;
+        flex-direction: column-reverse;
     }
 
-    .all-box-container {
-        width: 100% !important;
-        margin-top: 120px;
-    }
-}
-@media only screen and(max-width: 750px) {
-    .full-container {
-        margin: 0px auto !important;
-        display: flex;
-        flex-direction:column-reverse;
-    }
-    
     .card-container {
-        width: 100% !important;
+        width: 70% !important;
         position: relative;
         margin: 0px auto !important;
     }
@@ -357,6 +339,23 @@ hr {
 }
 
 @media only screen and (max-width: 660px) {
+
+    .full-container {
+        margin: 0px auto !important;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .card-container {
+        width: 75% !important;
+        position: relative;
+        margin: 0px auto !important;
+    }
+
+    .all-box-container {
+        width: 100% !important;
+        margin-top: 120px;
+    }
 
     .box-header-content h1 {
         font-size: 26px;
@@ -481,6 +480,69 @@ hr {
 
 @media only screen and (max-width: 550px) {
 
+    .full-container {
+        margin: 0px auto !important;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    /* card style */
+
+    .card-header-content h2 {
+        font-weight: 300;
+        padding-bottom: 6px;
+        font-size: 20px;
+    }
+
+    .card-horizontal {
+        margin-top: 25px !important;
+        margin-bottom: 30px !important;
+    }
+
+    .card-container {
+        padding: 35px 35px !important;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        width: 90% !important;
+        height: 500px !important;
+        position: relative;
+        margin: 0px auto !important;
+    }
+
+    /* card button  */
+
+.contact-founder-btn {
+    background-color: rgb(248, 83, 12);
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+}
+
+.img-lock-icon-btn {
+    width: 20px;
+    height: 21px;
+}
+
+/* startup button */
+.startup-btn {
+    border: 1px solid rgb(53, 53, 53);
+    color: rgb(53, 53, 53);
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 4px;
+}
+
+    .all-box-container {
+        width: 100% !important;
+        margin-top: 120px;
+    }
+
     .box-header-content h1 {
         font-size: 20px;
         font-weight: 600;
@@ -496,6 +558,7 @@ hr {
         color: rgb(137, 137, 137);
         font-size: 10px;
     }
+
     .first-box-container {
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         padding: 40px 35px !important;
@@ -547,15 +610,15 @@ hr {
         width: 30px;
     }
 
-        /* overview */
+    /* overview */
 
-        .overview-container {
-            padding-left: 35px !important;
-            padding-right: 35px !important;
-            padding-top: 60px;
-            padding-bottom: 20px;
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        }
+    .overview-container {
+        padding-left: 35px !important;
+        padding-right: 35px !important;
+        padding-top: 60px;
+        padding-bottom: 20px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
 
     .overview-content p,
     .business-content p,
